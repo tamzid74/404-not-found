@@ -18,11 +18,12 @@ span {
 }
 
 .container {
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px;
+    margin-top: 150px;
 
 
 }
@@ -75,17 +76,34 @@ button {
         flex-direction: column;
     }
 
+    header{
+        margin-left: 20px;
+    }
+
+    h1 {
+        color: var(--gray-1, #333);
+        font-family: Space Mono;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+
+    p {
+        color: var(--gray-2, #4F4F4F);
+        font-family: Space Mono;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 100%;
+        
+    }
+
     
 
-}
 
-@media screen and (min-width: 576px) and (max-width:990px) {
-    .container {
-        flex-direction: column;
-    }
 
-    .photo{
-        margin-top: 20px;
-    }
 
 }
